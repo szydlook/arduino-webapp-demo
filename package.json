@@ -1,0 +1,38 @@
+{
+  "name": "arduino-webapp-demo",
+  "version": "1.0.0",
+  "description": "Example of using Chart.js to visualize data from temperature sensor coming through WebSocket.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szydlook/arduino-webapp-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szydlook/arduino-webapp-demo/issues"
+  },
+  "homepage": "https://github.com/szydlook/arduino-webapp-demo#readme",
+  "dependencies": {
+    "chart.js": "^4.1.1",
+    "knockout": "^3.5.1",
+    "purecss": "^3.0.0",
+    "rxjs": "^7.8.0",
+    "socket.io-client": "^2.3.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
